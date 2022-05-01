@@ -17,7 +17,8 @@ const HALF_LIFE_PERIOD = 5730;
  * dateSample('WOOT!') => false
  *
  */
-function dateSample(sampleActivity) {
+function dateSample(sampleActivity) 
+{
   if (Number(sampleActivity) > 0 && Number(sampleActivity) < 15 && typeof Number(sampleActivity) == "number" && typeof sampleActivity == "string") 
   {
     result = Math.ceil((HALF_LIFE_PERIOD * Math.log(MODERN_ACTIVITY / parseFloat(sampleActivity))) / 0.693)
