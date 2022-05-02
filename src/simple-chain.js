@@ -28,8 +28,8 @@ const { NotImplementedError } = require('../extensions/index.js');
   },
   reverseChain() 
   {
-    //this.arr.reverse()
-    //return chainMaker
+    this.arr.reverse()
+    return chainMaker
   },
   finishChain () 
   {
